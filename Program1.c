@@ -5,7 +5,7 @@
 int main()
 {
     char ch;
-	int value1; //Declare an integer value
+    int value1; //Declare an integer value
     float value2;
     
     printf("Enter an Character value\n"); //Asking for user to enter a character //'\n' used for new line
