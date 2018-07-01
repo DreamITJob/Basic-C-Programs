@@ -5,7 +5,7 @@
 //Recursive function to add digits of a number
 int SumOfDigits(int num)
 {
-	static int sum=0;
+	static int sum=0; //Notice why we use here static?
 	if (num==0)
 	return sum;
 	sum=num%10 + SumOfDigits(num/10);
