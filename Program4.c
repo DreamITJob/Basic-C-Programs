@@ -15,7 +15,7 @@ int main()
 		return;
 	}
   //Please check online why we are checking upto n/2	or can check up to square root of n?
-	for ( i=2;i<number/2;i++)				
+	for ( i=2;i<=number/2;i++)				
 	{
 		if (number%i == 0)
 		{
